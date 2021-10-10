@@ -1,11 +1,11 @@
 #FOR TESTING
 
-# import config
-# TOKEN = config.TOKEN
+import config
+TOKEN = config.TOKEN
 
-#FOR PUSHING TO GITHUB
-import os
-TOKEN = os.environ['DISCORD_API']
+# #FOR PUSHING TO GITHUB
+# import os
+# TOKEN = os.environ['DISCORD_API']
 
 
 
@@ -169,13 +169,6 @@ async def menu(ctx,):
 
 
 
-
-
-
-
-
-# For Main Bot To Push
-# bot.run (os.environ[DISCORD_API])
 
 
 # For testing
